@@ -1,0 +1,50 @@
+{
+  "_meta": {
+      "sources": [
+          "loopback/common/models",
+          "loopback/server/models",
+          "../common/models",
+          "./models"
+      ],
+      "mixins": [
+          "loopback/common/mixins",
+          "loopback/server/mixins",
+          "../common/mixins",
+          "./mixins"
+      ]
+  },
+  "User": {
+      "dataSource": "sql3358660"
+  },
+  "AccessToken": {
+      "dataSource": "sql3358660",
+      "public": false
+  },
+  "ACL": {
+      "dataSource": "sql3358660",
+      "public": false
+  },
+  "RoleMapping": {
+      "dataSource": "sql3358660",
+      "public": false,
+      "options": {
+          "strictObjectIDCoercion": false
+      }
+  },
+  "Role": {
+      "dataSource": "sql3358660",
+      "public": false
+  },
+  "area": {
+      "dataSource": "sql3358660",
+      "public": true
+  },
+  "ups": {
+      "dataSource": "sql3358660",
+      "public": true
+  },
+  "tecnico": {
+      "dataSource": "sql3358660",
+      "public": true
+  }
+}

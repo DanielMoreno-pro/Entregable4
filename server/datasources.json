@@ -1,0 +1,16 @@
+{
+  "db": {
+      "name": "db",
+      "connector": "memory"
+  },
+  "sql3358660": {
+      "host": "sql3.freemysqlhosting.net",
+      "port": 3306,
+      "url": "",
+      "database": "sql3358660",
+      "password": "jPbKAkCcBA",
+      "name": "sql3358660",
+      "user": "sql3358660",
+      "connector": "mysql"
+  }
+}
